@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "oxc-minify": "^0.72.3"
+    
   },
   "dependencies": {
     "vitepress": "2.0.0-alpha.6",
