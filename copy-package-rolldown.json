@@ -1,0 +1,27 @@
+{
+  "name": "vitepress-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "oxc-minify": "^0.72.3"
+  },
+  "dependencies": {
+    "vitepress": "2.0.0-alpha.6",
+    "vite": "npm:rolldown-vite@latest"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:rolldown-vite@latest"
+    }
+  }
+}
