@@ -13,15 +13,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "oxc-minify": "^0.72.3"
+    
   },
   "dependencies": {
     "vitepress": "2.0.0-alpha.6",
-    "vite": "npm:rolldown-vite@latest"
-  },
-  "pnpm": {
-    "overrides": {
-      "vite": "npm:rolldown-vite@latest"
-    }
+    "vite": "^6.1.0"
   }
 }
